@@ -9,6 +9,6 @@ public class DekorateChallengeController {
 
     @RequestMapping("/")
     public String hello() {
-        return "Hello world";
+        return "<h2>Hello World</h2>";
     }
 }
