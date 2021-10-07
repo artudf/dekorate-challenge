@@ -27,7 +27,7 @@ class DekorateChallengeApplicationTests {
 				.when().get("/")
 				.then()
 				.statusCode(200)
-				.body(is("<h2>Hello World</h2>"));
+				.body(is("<h2>Hola mundo</h2>"));
 	}
 
 
